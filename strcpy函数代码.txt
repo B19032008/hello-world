@@ -1,0 +1,17 @@
+char *strcpy(char *strDst,const char *strSrc)
+{
+   char *address=strDst；
+
+   if(strDst==NULL||strSrc==NULL)
+
+  return NULL;
+
+if(strDst==strSrc)
+
+return strDst;
+
+ while((*strDst++=*strSrc++)!='\0');
+
+return address;
+
+}
