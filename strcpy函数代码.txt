@@ -1,3 +1,12 @@
+/*/*/*/*/*/*
+
+strcpy函数代码
+
+*/*/*/*/*/*/
+
+/**
+远程edit
+**/
 char *strcpy(char *strDst,const char *strSrc)
 {
    char *address=strDst；
