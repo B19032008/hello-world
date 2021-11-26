@@ -1,3 +1,14 @@
+/*/*/*/*/*/*
+
+strcpy函数代码
+
+*/*/*/*/*/*/
+
+/**
+
+本地编辑
+
+**/
 char *strcpy(char *strDst,const char *strSrc)
 {
    char *address=strDst；
